@@ -18,7 +18,7 @@ public class QuickMeasuerTest {
     public void a(){
         StaticData staticData=new StaticData(0);
         MyThread myThread=new MyThread(staticData);
-        QuickMeasuer.create().cycleNum(100).threadNum(100).doMeasure(myThread);
+        QuickMeasuer.create().cycleNum(5).threadNum(5).doMeasure(myThread);
         System.out.println(staticData.getCount());
     }
 

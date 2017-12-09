@@ -20,8 +20,8 @@ public class ImageCompareTest {
 
     @Test
     public void compareTest() {
-        String filePath1 =path+"/src/test/resources/images/example6.jpg";
-        String filePath2 =path+"/src/test/resources/images/example5.jpg";
+        String filePath1 =path+"/src/test/resources/images/example1.jpg";
+        String filePath2 =path+"/src/test/resources/images/example2.jpg";
         System.out.println(filePath1);
         try {
             double similary= ImageCompare.getSimilarity(filePath1,filePath2);

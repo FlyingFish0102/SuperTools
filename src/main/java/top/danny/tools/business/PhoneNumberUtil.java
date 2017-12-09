@@ -4,14 +4,14 @@ import java.util.regex.Pattern;
 
 /**
  * @author huyuyang@lxfintech.com
- * @Title: CheckPhoneHelper
+ * @Title: PhoneNumberUtil
  * @Copyright: Copyright (c) 2016
  * @Description: 验证手机号码合法性、所属运营商、座机验证等
  * 参考：http://blog.csdn.net/linbilin_/article/details/49796617
  * @Company: lxjr.com
  * @Created on 2017-05-25 14:11:57
  */
-public class CheckPhoneHelper {
+public class PhoneNumberUtil {
 
     /**
      * 座机电话格式验证
